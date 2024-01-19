@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: local
+  datasource:
+    username: root
+    password: "13611443604lwz"
+    url: jdbc:mysql://${bs.db.host}:3306/web_of_things?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
